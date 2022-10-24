@@ -26,8 +26,41 @@
     </style>
   </head>
   <body>
-    IP Address Tracker Search for any IP address or domain IP Address Location
-    Timezone UTC
+    <hero class="hero">
+      <h1 class="hero__header">IP Address Tracker</h1>
+      <div class="input">
+        <input
+          class="input__inner"
+          type="text"
+          placeholder="Search for any IP address or domain"
+        />
+        <button class="input__btn">></button>
+      </div>
+      <div class="hero_container">
+        <div class="hero__address">
+          <span class="hero__header--info"> IP address </span>
+          <h2 class="hero__header--main">192.212.175.101</h2>
+        </div>
+        <div class="hero__address">
+          <span class="hero__header--info"> Location </span>
+          <h2 class="hero__header--main">Brooklyn, NY 10001</h2>
+        </div>
+      </div>
+      <div class="hero__address">
+        <span class="hero__header--info"> Timezone </span>
+        <h2 class="hero__header--main">UTC - 05:00</h2>
+      </div>
+      <div class="hero__address">
+        <span class="hero__header--info">Isp </span>
+        <h2 class="hero__header--main">
+          <ul class="list">
+            <li class="list__item">SpaceX</li>
+            <li class="list__item">Starlink</li>
+          </ul>
+        </h2>
+      </div>
+    </hero>
+    IP Address Location Timezone UTC
     <!-- add offset value dynamically using the API -->
     ISP
 
